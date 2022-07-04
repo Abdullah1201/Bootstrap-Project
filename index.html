@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Project</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar start here-->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#learn">What you'll learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#question">Question</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#instructor">
+                  Instructor
+                </a>
+                </li></ul>
+          </div>
+        </div>
+      </nav>
+    <!--navbar end here-->
+
+ <!--showcase start here-->
+ <section class="p-5 pb-md-0 bg-dark" id="">
+     <div class="container">
+         <div class="d-md-flex align-items-center justify-content-between">
+             <div class="text-light">
+                 <h1>Become a <span class="text-warning">Web developer</span></h1>
+                <p class="lead">We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role
+
+                </p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal">Contact Us
+               <i class="bi bi-chevron-right"></i></button>
+              
+              <div class="modal text-dark" id="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Contact Me</h2>
+                      <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="form-group">
+                          <label for="name">Full Name:</label>
+                          <input type="text" name="name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="mail">Email:</label>
+                          <input type="text" name="name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="massage">Message:</label>
+                        <textarea class="form-control" name="" id="" rows="5"></textarea>
+                        </div>
+
+
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+  
+                </div>
+              </div>
+              
+              </div>
+             <img src="showcase.svg" alt="" class="img-fluid w-50 d-none d-md-block">
+         </div>
+         </div>
+     
+ </section>
+  <!--showcase end here-->
+
+  <!--newsletter start here-->
+  <section class="bg-primary text-light p-5" id="">
+      <div class="container">
+          <div class="row align-items-center justify-content-between">
+              <div class="col-md mb-3 mb-md-0">
+                  <h1>Sign up for our newsletter</h1>
+              </div>
+              <div class="col-md">
+                  <div class="input-group input-group-md">
+                      <input type="text" name="Email" placeholder="Enter Email" class="from-control">
+                      <button class="btn btn-dark" type="button">Submit</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!--newsletter End here-->
+
+    <!--boxes section start here-->
+    <section class="p-5">
+    <div class="container">
+      <section class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center bg-dark text-light">
+            <div class="card-body">
+              <i class="bi bi-laptop h1"></i>
+              <h3 class="p-3">Virtual</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quas quidem possimus dolorum esse eligendi?</p>
+              <button class="btn-btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+      
+        <!---->
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center bg-dark text-light">
+            <div class="card-body">
+              <i class="bi bi-file-person h3"></i>
+              
+              <h3 class="p-3">Hybrid</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quas quidem possimus dolorum esse eligendi?</p>
+              <button class="btn-btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+        <!---->
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center bg-dark text-light">
+            <div class="card-body">
+              <i class="bi bi-people-fill h3"></i>
+              <h3 class="p-3">Virtual</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quas quidem possimus dolorum esse eligendi?</p>
+              <button class="btn-btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  <!--boxes section start here-->
+
+  <!--learn section start here-->
+  <div class="p-5" id="learn">
+    <div class="container">
+      <div class="d-md-flex align-items-center justufy-content-between">
+       
+        <img src="fundamentals.svg" alt="" class="img-fluid w-50">
+ <div class="col-md">
+        <h2>Learn the fundamentals</h2>
+        <p class="lead">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti possimus magnam corporis ratione facere!
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam iste minus placeat odit velit quos, nulla architecto amet voluptates?
+        </p>
+      
+        <button class="btn btn-light">
+          <i class="bi bi-chevron-right"></i>
+          Read more</button>
+        
+      </div>
+    </div>
+  </div>
+  </section>
+   <!--learn section end here-->
+
+   <!--learn reach start here-->
+   <section class="p-5 bg-dark text-light">
+     <div class="container">
+       <div class="row align-items-center justify-content-between">
+         <div class="col-md">
+           <h2>Learn reach</h2>
+           <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam iste minus placeat odit velit quos, nulla architecto amet voluptates?
+          </p>
+        
+          <button class="btn btn-light">
+            <i class="bi bi-chevron-right"></i>Read more</button>
+         </div>
+         <div class="col-md">
+           <img src="react.svg" alt="" class="img-fluid w-100">
+         </div>
+       </div>
+     </div>
+   </section>
+      <!--learn reach end here-->
+
+      <!--frequently question start here-->
+<section class="p-5" id="question">
+  <div class="container">
+<h2 class="text-center mb-5 text-primary">Frequently ask question</h2>
+      <div class="accordion" id="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Where exactly are located?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               How much does it cost to attend?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               What do i need to know?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 How do I sign up?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   Do you help me find a job?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+      </div>
+      </div>
+
+      <!--frequently question end here-->
+
+
+     <!--instructor start here-->
+     <section class="bg-primary p-5" id="instructor">
+      <div class="container">
+        <h2 class="text-center">Our Instructor</h2>
+        <p class="lead text-center">Our instructor all have 5 years work experience</p>
+        <div class="row g-4">
+
+          <!--1-->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center text-dark">
+              <div class="card-body">
+                <img src="instructors1.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title">Jhone doe</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam beatae veniam necessitatibus?</p>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--2-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center text-dark">
+              <div class="card-body">
+                <img src="instructors2.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title">Sara doe</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam beatae veniam necessitatibus?</p>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--3-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center text-dark">
+              <div class="card-body">
+                <img src="instructors3.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title">Stiven Smith</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam beatae veniam necessitatibus?</p>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--4-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center text-dark">
+              <div class="card-body">
+                <img src="instructors4.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title">Lucy</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam beatae veniam necessitatibus?</p>
+                <a href="#">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+      <!--instructor end here-->
+
+
+      <!--contct us start here-->
+
+      <section class="p-5" id="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+              <h2 class="text-center">Contact Info</h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <strong>Name</strong>Lutfur Rahman
+                </li>
+                <li class="list-group-item">
+                  <strong>Main Location</strong>50 main st booston Ma
+                </li>
+                <li class="list-group-item">
+                  <strong>Enrollment</strong>55555555
+                </li>
+                <li class="list-group-item">
+                  <strong>Student Phone</strong>7347283748937686
+                </li>
+                <li class="list-group-item">
+                  <strong>Student Email</strong>jghhgdh@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58962.79150124575!2d91.84938801623046!3d22.535136250447618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2b74884ee56f%3A0x781e170fb0b0e5e6!2sRaozan!5e0!3m2!1sen!2sbd!4v1655796002570!5m2!1sen!2sbd" width="500" height="400" style="border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+         <!--contct us end here-->
+
+         <!--footer-->
+
+<footer class="bg-dark text-light p-5 m-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <a href="#" class="d-flex justify-content-end"><i class="bi bi-arrow-up-circle h2"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+         <!--end here-->
+ 
+</body>
+</html>
